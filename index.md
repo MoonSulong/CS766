@@ -1,11 +1,10 @@
 # Satellite Imagery Classification
 <br/> 
-##### SuLong Zhou, Linhong Lyu  {szhou78, llyu8}@wisc.edu
-###### May 4, 2020
+#### SuLong Zhou, Linhong Lyu  {szhou78, llyu8}@wisc.edu
+#### May 4, 2020
 <br/> 
 
 ## Motivation
-<br/>
 
 The interactions between the natural environment and human societies on earth have a long and complex history. Land use and cover change(LUCC) is one of many primary driving factors for the dynamic process. Land use shows how people exploit and utilize the landscape – whether for development, conservation, or mixed uses. Land cover data documents how much of a region is covered by forest, wetland, water or other land types. Since LUCC over time and space in response to evolving economic, social, and biophysical conditions, the study of LUCC is essential to better understand the impacts of the human-nature coupled changing system, such as sustainable development and climate change.
 
@@ -15,10 +14,8 @@ Remote sensing has been the most popular approach to moniter and analyze the LUC
 2. Re-implement random forest supervised methods for classification
 3. Train a simple NN and a CNN model to improve the accuracy
 4. Evaluate and compare the accuracy across different classifiers
-
-
-
 <br/>
+
 
 ## Platform and Datasets
 
@@ -43,16 +40,16 @@ The below figure show an example with true color(R,G,B) and false color(NR,R,G) 
 </center>
 <br/> 
 
+
 ## Workflow
 
 <center>
-<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/FrameWork.png" width = "700" height = "500" />  
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/Workflow.png" width = "700" height = "500" />  
 </center>
 <br/> 
 
 
 ## The Classifiers
-<br/>
 
 In this project, the following classifaction algorithms are used:
 
@@ -60,7 +57,6 @@ In this project, the following classifaction algorithms are used:
 2. Random Forest
 3. Simple Neural Network
 4. Convolution Neuarl Network
-
 <br/>
 
 ### Segmentation
@@ -86,7 +82,6 @@ $$
 $$
 
 
-
 ### Random Forest
 
 The image below roughly depicts the random forest algorithm.
@@ -103,6 +98,7 @@ The image below roughly depicts the random forest algorithm.
 </center>
 <br/> 
 
+
 ### Convolution Neural Network
 
 <center>
@@ -112,8 +108,6 @@ The image below roughly depicts the random forest algorithm.
 
 
 ## Results
-<br/>
-
 ### Type 1: 2 Classes
 
 
@@ -130,10 +124,6 @@ The image below roughly depicts the random forest algorithm.
 </center>
 <br/>
 
-For test math equations
-$$
-a^2 + b^2 = c^2
-$$
 
 
 
