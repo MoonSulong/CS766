@@ -23,11 +23,18 @@ Remote sensing has been the most popular approach to moniter and analyze the LUC
 ## Platform and Datasets
 
 ### Platform
-Google Earth Engine(https://earthengine.google.com) consists of a multi-petabyte satellite imagery data catalog co-located with a high-performance, intrinsically parallel cloud computation service. Users can access through an Internet-accessible application programming interface (API) and an associated web-based interactive development environment (IDE) that enables rapid prototyping and visualization of results. TensorFlow(https://www.tensorflow.org/) is an open source ML platform that supports advanced ML methods such as deep learning. We run image segmentation and random forest classifier on GEE while creating and training the NN model on TensorFlow, and then exporting the resutls back to GEE. 
+Google Earth Engine(https://earthengine.google.com) consists of a multi-petabyte satellite imagery data catalog co-located with a high-performance, intrinsically parallel cloud computation service. Users can access through an Internet-accessible application programming interface (API) and an associated web-based interactive development environment (IDE) that enables rapid prototyping and visualization of results. TensorFlow(https://www.tensorflow.org/) is an open source ML platform that supports advanced ML methods such as deep learning. We ran image segmentation and random forest classifier on GEE while creating and training the NN model on TensorFlow, and then exporting the resutls back to GEE. 
 
 ### Datasets
 
-Landsat 8, a NASA and USGS collaboration, acquires global moderate-resolution measurements of the Earth's terrestrial and polar regions in the visible, near-infrared, short wave, and thermal infrared.
+Landsat series of satellites(https://www.sciencedirect.com/topics/earth-and-planetary-sciences/landsat), launched by NASA and USGS, provides the longest temporal record of space-based surface observations. Landsat 8 OSL is the latest imagery data collection with moderate resolution that consists of 9 spectural bands in the visible, near-infrared, short wave, and thermal infrared. We used its standard Level-1 data products in GEE and selected 6 bands of imagery composite for the classification.
+
+* Band 2 Visible (0.450 - 0.51 µm) 30 m
+* Band 3 Visible (0.53 - 0.59 µm) 30 m
+* Band 4 Red (0.64 - 0.67 µm) 30 m
+* Band 5 Near-Infrared (0.85 - 0.88 µm) 30 m
+* Band 6 SWIR 1(1.57 - 1.65 µm) 30 m
+* Band 7 SWIR 2 (2.11 - 2.29 µm) 30 m
 
 <center>
 <img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/madison.png" />  
@@ -47,7 +54,7 @@ Landsat 8, a NASA and USGS collaboration, acquires global moderate-resolution me
 
 In this project, the following classifaction algorithms are used:
 
-1. Histogram
+1. Segmentation
 2. Random Forest
 3. Neural Network
 4. Convolution Neuarl Network
