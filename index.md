@@ -29,12 +29,14 @@ Google Earth Engine(https://earthengine.google.com) consists of a multi-petabyte
 
 Landsat series of satellites(https://www.sciencedirect.com/topics/earth-and-planetary-sciences/landsat), launched by NASA and USGS, provides the longest temporal record of space-based surface observations. Landsat 8 OSL is the latest imagery data collection with moderate resolution that consists of 9 spectural bands in the visible, near-infrared, short wave, and thermal infrared. We used its standard Level-1 data products in GEE and selected 6 bands of imagery composite for the classification.
 
-* Band 2 Visible (0.450 - 0.51 µm) 30 m
-* Band 3 Visible (0.53 - 0.59 µm) 30 m
+* Band 2 Blue (0.450 - 0.51 µm) 30 m
+* Band 3 Green (0.53 - 0.59 µm) 30 m
 * Band 4 Red (0.64 - 0.67 µm) 30 m
 * Band 5 Near-Infrared (0.85 - 0.88 µm) 30 m
 * Band 6 SWIR 1(1.57 - 1.65 µm) 30 m
 * Band 7 SWIR 2 (2.11 - 2.29 µm) 30 m
+
+The below figure show an example with true color(R,G,B) and false color(NR,R,G) composite of Landsat 8 imagery centered on city of Madison.    
 
 <center>
 <img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/madison.png" />  
