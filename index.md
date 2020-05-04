@@ -11,10 +11,10 @@ The interactions between the natural environment and human societies on earth ha
 
 <br/>
 
-## Database
+## Platform and Datasets
 
 <center>
-<img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/madison.png" />  
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/madison.png" />  
 </center>
 <br/> 
 
