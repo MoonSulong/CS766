@@ -46,7 +46,7 @@ The below figure show an example with true color(R,G,B) and false color(NR,R,G) 
 ## Workflow
 
 <center>
-<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/Workflow.png" width = "700" height = "500" />  
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/FrameWork.png" width = "700" height = "500" />  
 </center>
 <br/> 
 
@@ -71,17 +71,18 @@ The main idea of the Otsu Method is to minimize the summation of the inner-varia
 
 $$
     \min\limits_{C_0, C_1} \sum\limits_{j = 0,1} V_j= \min\limits_{C_0, C_1} \sum\limits_{j = 0,1} \sum\limits_{i\in C_j}p_i\cdot (x_i - \mu_j)^2
-    \label{ObjectiveFunc1}
 $$
 
-Furthermore, the summation of each cluster's inner-variance and the inter-class variance should be equal to the total-variance of the whole set [23], which is a constant for a fixed data set. 
+Furthermore, the summation of each cluster's inner-variance and the inter-class variance should be equal to the total-variance of the whole set, which is a constant for a fixed data set. 
+
 $$
     V = \sum\limits_{j=0,1} V_j + V_{0,1}
 $$
-Therefore, the previous objective function \textbf{Equation \ref{ObjectiveFunc1}} is equivalent to maximize the inter-class variance $V_{0,1}$:
+
+Therefore, this is equivalent to maximize the inter-class variance $V_{0,1}$:
+
 $$
     \max\limits_{C_0, C_1}\sum\limits_{j= 0,1} ((\sum\limits_{i\in C_j}p_i)\cdot (\mu_j - \mu)^2)
-    \label{ObjectiveFunc2}
 $$
 
 
