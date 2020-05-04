@@ -4,10 +4,19 @@
 ###### May 4, 2020
 <br/> 
 
-## Background
+## Motivation
 <br/>
 
 The interactions between the natural environment and human societies on earth have a long and complex history. Land use and cover change(LUCC) is one of many primary driving factors for the dynamic process. Land use shows how people exploit and utilize the landscape – whether for development, conservation, or mixed uses. Land cover data documents how much of a region is covered by forest, wetland, water or other land types. Since LUCC over time and space in response to evolving economic, social, and biophysical conditions, the study of LUCC is essential to better understand the impacts of the human-nature coupled changing system, such as sustainable development and climate change.
+
+Remote sensing has been the most popular approach to moniter and analyze the LUCC with the help of classification of satellite imagery. There are continuous efforts in progress to research these image process technologies including image segmentation, supervised classfication, and nerual network. However, many challenges remain in dicsussion. For example, how to automatically select a threshold for image segmentation apporach, which classifier should be selected given different scenarios because of time, spatial, and spectral varities of imagery. In our porject, we propose：
+
+1. Optimize the threshold selection of single band method for water detection
+2. Re-implement random forest supervised methods for classification
+3. Train a simple NN and a CNN model to improve the accuracy
+4. Evaluate and compare the accuracy across different classifiers
+
+
 
 <br/>
 
