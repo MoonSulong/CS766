@@ -14,6 +14,7 @@ Remote sensing has been the most popular approach to moniter and analyze the LUC
 2. Re-implement random forest supervised methods for classification
 3. Train a simple NN and a CNN model to improve the accuracy
 4. Evaluate and compare the accuracy across different classifiers
+
 <br/>
 
 
