@@ -1,10 +1,11 @@
 # Satellite Imagery Classification
-
-#### SuLong Zhou, Linhong Lyu  {szhou78, llyu8}@wisc.edu
-#### May 4, 2020
+<br/> 
+##### SuLong Zhou, Linhong Lyu  {szhou78, llyu8}@wisc.edu
+###### May 4, 2020
 <br/> 
 
 ## Motivation
+<br/>
 
 The interactions between the natural environment and human societies on earth have a long and complex history. Land use and cover change(LUCC) is one of many primary driving factors for the dynamic process. Land use shows how people exploit and utilize the landscape – whether for development, conservation, or mixed uses. Land cover data documents how much of a region is covered by forest, wetland, water or other land types. Since LUCC over time and space in response to evolving economic, social, and biophysical conditions, the study of LUCC is essential to better understand the impacts of the human-nature coupled changing system, such as sustainable development and climate change.
 
@@ -45,7 +46,7 @@ The below figure show an example with true color(R,G,B) and false color(NR,R,G) 
 ## Workflow
 
 <center>
-<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/Workflow.png" width = "700" height = "500" />  
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/FrameWork.png" width = "700" height = "500" />  
 </center>
 <br/> 
 
@@ -57,12 +58,31 @@ In this project, the following classifaction algorithms are used:
 
 1. Segmentation
 2. Random Forest
-3. Neural Network
+3. Simple Neural Network
 4. Convolution Neuarl Network
 
 <br/>
 
 ### Segmentation
+
+The Otsu Method is an unsupervised method and it was initially designed to select a threshold to separate an object out of its background, through the gray-level histogram of the image. It is equivalent to K-Means Method but the Otsu Method can provide the global optimal solution, while K - Means Method may be trapped in local optimum point.
+
+The main idea of the Otsu Method is to minimize the summation of the inner-variance $V_j$ of all clusters $C_j$, which is called **intra-class variance**. The inner-variance of a cluster shows the summation of squared distance of each element to the center of the cluster as we defined, and the smaller value of the inner-variance presents the closer distance each point toward the center of the cluster, which shows a closer relationship or higher similarity that the elements in this cluster share. Therefore, the best separation of the whole set of elements should group the similar elements in the same cluster as optimally as possible. In mathematics, this is equal to minimize the summation of inner-variance inside each cluster. The objective function is formulated as the follow:
+
+$$
+    \min\limits_{C_0, C_1} \sum\limits_{j = 0,1} V_j= \min\limits_{C_0, C_1} \sum\limits_{j = 0,1} \sum\limits_{i\in C_j}p_i\cdot (x_i - \mu_j)^2
+    \label{ObjectiveFunc1}
+$$
+
+Furthermore, the summation of each cluster's inner-variance and the inter-class variance should be equal to the total-variance of the whole set [23], which is a constant for a fixed data set. 
+$$
+    V = \sum\limits_{j=0,1} V_j + V_{0,1}
+$$
+Therefore, the previous objective function \textbf{Equation \ref{ObjectiveFunc1}} is equivalent to maximize the inter-class variance $V_{0,1}$:
+$$
+    \max\limits_{C_0, C_1}\sum\limits_{j= 0,1} ((\sum\limits_{i\in C_j}p_i)\cdot (\mu_j - \mu)^2)
+    \label{ObjectiveFunc2}
+$$
 
 
 
