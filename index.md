@@ -1,11 +1,10 @@
 # Satellite Imagery Classification
-<br/> 
-##### SuLong Zhou, Linhong Lyu  {szhou78, llyu8}@wisc.edu
-###### May 4, 2020
+
+#### SuLong Zhou, Linhong Lyu  {szhou78, llyu8}@wisc.edu
+#### May 4, 2020
 <br/> 
 
 ## Motivation
-<br/>
 
 The interactions between the natural environment and human societies on earth have a long and complex history. Land use and cover change(LUCC) is one of many primary driving factors for the dynamic process. Land use shows how people exploit and utilize the landscape – whether for development, conservation, or mixed uses. Land cover data documents how much of a region is covered by forest, wetland, water or other land types. Since LUCC over time and space in response to evolving economic, social, and biophysical conditions, the study of LUCC is essential to better understand the impacts of the human-nature coupled changing system, such as sustainable development and climate change.
 
@@ -46,7 +45,7 @@ The below figure show an example with true color(R,G,B) and false color(NR,R,G) 
 ## Workflow
 
 <center>
-<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/FrameWork.png" width = "700" height = "500" />  
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/Workflow.png" width = "700" height = "500" />  
 </center>
 <br/> 
 
