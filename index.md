@@ -22,15 +22,20 @@ Remote sensing has been the most popular approach to moniter and analyze the LUC
 
 ## Platform and Datasets
 
+### Platform
+Google Earth Engine(https://earthengine.google.com) consists of a multi-petabyte satellite imagery data catalog co-located with a high-performance, intrinsically parallel cloud computation service. Users can access through an Internet-accessible application programming interface (API) and an associated web-based interactive development environment (IDE) that enables rapid prototyping and visualization of results. TensorFlow is an open source ML platform that supports advanced ML methods such as deep learning. We run image segmentation and random forest classifier on GEE while creating and training the NN model on TensorFlow, and then exporting the resutls back to GEE. 
+
+### Datasets
+
 <center>
 <img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/madison.png" />  
 </center>
 <br/> 
 
-## Frame Work
+## Workflow
 
 <center>
-<img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/FrameWork.png" width = "700" height = "500" />  
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/FrameWork.png" width = "700" height = "500" />  
 </center>
 <br/> 
 
