@@ -27,7 +27,7 @@ Remote sensing has been the most popular approach to moniter and analyze the LUC
 
 ### Datasets
 
-Landsat series of [satellites](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/landsat), launched by NASA and USGS, provides the longest temporal record of space-based surface observations. Landsat 8 OSL is the latest imagery data collection with moderate resolution that consists of 9 spectural bands in the visible, near-infrared, short wave, and thermal infrared. We used its standard Level-1 data products in GEE and selected 6 bands of imagery composite for the classification.
+[Landsat series of satellites](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/landsat), launched by NASA and USGS, provides the longest temporal record of space-based surface observations. Landsat 8 OSL is the latest imagery data collection with moderate resolution that consists of 9 spectural bands in the visible, near-infrared, short wave, and thermal infrared. We used its standard Level-1 data products in GEE and selected 6 bands of imagery composite for the classification.
 
 * Band 2 Blue (0.450 - 0.51 µm) 30 m
 * Band 3 Green (0.53 - 0.59 µm) 30 m
@@ -62,6 +62,9 @@ In this project, the following classifaction algorithms are used:
 4. Convolution Neuarl Network
 
 <br/>
+
+### Segmentation
+
 
 
 ### Random Forest
