@@ -1,6 +1,6 @@
 # Satellite Imagery Classification
 <br/> 
-##### SuLong Zhou, Linhong Lyu
+##### SuLong Zhou, Linhong Lyu  {szhou78, llyu8}@wisc.edu
 ###### May 4, 2020
 <br/> 
 
