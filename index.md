@@ -46,7 +46,7 @@ The below figure show an example with true color(R,G,B) and false color(NR,R,G) 
 ## Workflow
 
 <center>
-<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/FrameWork.png" width = "700" height = "500" />  
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/Workflow.png" width = "700" height = "500" />  
 </center>
 <br/> 
 
