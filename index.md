@@ -23,11 +23,11 @@ Remote sensing has been the most popular approach to moniter and analyze the LUC
 ## Platform and Datasets
 
 ### Platform
-Google Earth Engine(https://earthengine.google.com) consists of a multi-petabyte satellite imagery data catalog co-located with a high-performance, intrinsically parallel cloud computation service. Users can access through an Internet-accessible application programming interface (API) and an associated web-based interactive development environment (IDE) that enables rapid prototyping and visualization of results. TensorFlow(https://www.tensorflow.org/) is an open source ML platform that supports advanced ML methods such as deep learning. We ran image segmentation and random forest classifier on GEE while creating and training the NN model on TensorFlow, and then exporting the resutls back to GEE. 
+[Google Earth Engine](https://earthengine.google.com) consists of a multi-petabyte satellite imagery data catalog co-located with a high-performance, intrinsically parallel cloud computation service. Users can access through an Internet-accessible application programming interface (API) and an associated web-based interactive development environment (IDE) that enables rapid prototyping and visualization of results. [TensorFlow](https://www.tensorflow.org/) is an open source ML platform that supports advanced ML methods such as deep learning. We ran image segmentation and random forest classifier on GEE while creating and training the NN model on TensorFlow, and then exporting the resutls back to GEE. 
 
 ### Datasets
 
-Landsat series of satellites(https://www.sciencedirect.com/topics/earth-and-planetary-sciences/landsat), launched by NASA and USGS, provides the longest temporal record of space-based surface observations. Landsat 8 OSL is the latest imagery data collection with moderate resolution that consists of 9 spectural bands in the visible, near-infrared, short wave, and thermal infrared. We used its standard Level-1 data products in GEE and selected 6 bands of imagery composite for the classification.
+Landsat series of [satellites](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/landsat), launched by NASA and USGS, provides the longest temporal record of space-based surface observations. Landsat 8 OSL is the latest imagery data collection with moderate resolution that consists of 9 spectural bands in the visible, near-infrared, short wave, and thermal infrared. We used its standard Level-1 data products in GEE and selected 6 bands of imagery composite for the classification.
 
 * Band 2 Blue (0.450 - 0.51 µm) 30 m
 * Band 3 Green (0.53 - 0.59 µm) 30 m
@@ -68,7 +68,7 @@ In this project, the following classifaction algorithms are used:
 
 The image below roughly depicts the random forest algorithm.
 <center>
-<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/RF.png" width = "700" height = "540" />  
+<img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/RF.png" width = "700" height = "540" />  
 </center>
 <br/> 
 
@@ -76,14 +76,14 @@ The image below roughly depicts the random forest algorithm.
 ### Neural Network
 
 <center>
-<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/NN.png" width = "500" height = "410" />  
+<img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/NN.png" width = "500" height = "410" />  
 </center>
 <br/> 
 
 ### Convolution Neural Network
 
 <center>
-<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/CNN.png" width = "1000" height = "450" />
+<img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/CNN.png" width = "1000" height = "450" />
 </center>
 <br/> 
 
@@ -95,7 +95,7 @@ The image below roughly depicts the random forest algorithm.
 
 
 <center>
-<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/2classes.png" />  
+<img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/2classes.png" />  
 </center>
 <br/> 
 
@@ -103,7 +103,7 @@ The image below roughly depicts the random forest algorithm.
 ### Type2: 3 Classes
 
 <center>
-<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/3classes.png" />  
+<img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/3classes.png" />  
 </center>
 <br/>
 
