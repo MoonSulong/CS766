@@ -68,7 +68,7 @@ In this project, the following classifaction algorithms are used:
 
 The image below roughly depicts the random forest algorithm.
 <center>
-<img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/RF.png" width = "700" height = "540" />  
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/RF.png" width = "700" height = "540" />  
 </center>
 <br/> 
 
@@ -76,14 +76,14 @@ The image below roughly depicts the random forest algorithm.
 ### Neural Network
 
 <center>
-<img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/NN.png" width = "500" height = "410" />  
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/NN.png" width = "500" height = "410" />  
 </center>
 <br/> 
 
 ### Convolution Neural Network
 
 <center>
-<img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/CNN.png" width = "1000" height = "450" />
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/CNN.png" width = "1000" height = "450" />
 </center>
 <br/> 
 
@@ -95,7 +95,7 @@ The image below roughly depicts the random forest algorithm.
 
 
 <center>
-<img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/2classes.png" />  
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/2classes.png" />  
 </center>
 <br/> 
 
@@ -103,7 +103,7 @@ The image below roughly depicts the random forest algorithm.
 ### Type2: 3 Classes
 
 <center>
-<img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/3classes.png" />  
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/3classes.png" />  
 </center>
 <br/>
 
