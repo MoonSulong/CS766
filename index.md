@@ -146,7 +146,7 @@ For 3 classes classification, the overall accuracy of random forest still perfor
 
 ### Confusion Matrix
 
-                     | Non-water            | Water                | total           
+actual\predict       | Non-water            | Water                | total           
 :------------------: | :------------------: | :------------------: | :------------------:
 Non-water            | 80                   | 10                   | 90             
 Water                | 16                   | 94                   | 110  
