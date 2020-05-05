@@ -117,6 +117,15 @@ The image below roughly depicts the random forest algorithm.
 </center>
 <br/> 
 
+head one             | head two             | head three           | head four           
+:------------------: | :------------------: | :------------------: | :------------------:
+d1                   | d1                   | d3                   | d4             
+d1                   | d1                   | d3                   | d4  
+d1                   | d1                   | d3                   | d4 
+
+<br/>
+
+
 
 ### Type2: 3 Classes
 
@@ -125,9 +134,20 @@ The image below roughly depicts the random forest algorithm.
 </center>
 <br/>
 
+head one             | head two             | head three           | head four           | head five
+:------------------: | :------------------: | :------------------: | :------------------:|:------------------:
+d1                   | d1                   | d3                   | d4                  | d5        
+d1                   | d1                   | d3                   | d4                  | d5
+d1                   | d1                   | d3                   | d4                  | d5
+d1                   | d1                   | d3                   | d4                  | d5
 
+<br/>
 
-
+<style>
+table {
+margin: auto;
+}
+</style>
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
