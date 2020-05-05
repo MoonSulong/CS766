@@ -159,7 +159,9 @@ Actual\Predict       | Non-water            | Water                | Total
 Non-water            | 80                   | 10                   | 90             
 Water                | 16                   | 94                   | 110  
 Total                | 96                   | 104                  | 200
-Overall accuracy = (80 + 94) / 200 = 87%
+
+
+<center> Overall accuracy = (80 + 94) / 200 = 87% </center>
 <br/>
 
 Actual\Predict       | Non-water            | Water                | Total           
@@ -167,7 +169,9 @@ Actual\Predict       | Non-water            | Water                | Total
 Non-water            | 93                   | 2                    | 95             
 Water                | 4                    | 101                  | 105  
 Total                | 97                   | 103                  | 200
-Overall accuracy = (93 + 101) / 200 = 97%
+
+
+<center> Overall accuracy = (93 + 101) / 200 = 97% </center>
 <br/>
 
 Actual\Predict       | Bare                 | Vegetation           | Water               | Total
@@ -176,7 +180,9 @@ Bare                 | 41                   | 3                    | 0          
 Vegetation           | 2                    | 50                   | 2                   | 54
 Water                | 0                    | 1                    | 101                 | 102
 Total                | 43                   | 54                   | 103                 | 200
-Overall accuracy = (41 + 51 + 101) / 200 = 96%
+
+
+<center> Overall accuracy = (41 + 51 + 101) / 200 = 96% </center>
 <br/>
 
 ### Cross-entropy Loss
