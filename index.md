@@ -99,9 +99,7 @@ The image below roughly depicts the random forest algorithm.
 
 
 ### Neural Network
-[A neural network](https://en.wikipedia.org/wiki/Neural_network) is a network or circuit of neurons, connecting by weighted edges. Generally, a neural network has hidden layers, and activation functions on those hidden nodes to generate outputs. To train the weights of edges, neural works should define forward functions, loss functions and calculate backward functions to update the weights. 
 
-A simple neural network is shown as below. A dense layer means fully connections. Besides, the method of dropout is also used here to reduce overfitting by randomly ignore some nodes during training process. 
 <center>
 <img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/NN.png" width = "500" height = "410" />  
 </center>
@@ -142,7 +140,7 @@ We used confusion matrix to evaluate the accuracy for segmentation and random fo
 
 For 2 classes classification, the overall accuracy of segmentation can only reach 87% while the overall accuarcy of RF outperforms with 97%.
 
-For 3 classes classification, the overall accuracy of random forest still performs well with 96%. The NN shows close but lower total accuracy with 92% and 95% respectively. In addition, there is a gap between training accuracy and test accuracy for NN models. Although it shows very high accuracy in training set for both NN models, 99% and 100%, they drop on the test sets.      
+For 3 classes classification, the overall accuracy of random forest still performs well with 96%. The NN shows close but lower total accuracy with 92% and 95% respectively. In addition, there is a gap between training accuracy and test accuracy for NN models. Although it shows very high accuracy in training set for both NN models, 98% and 99%, they drop on the test sets.      
 
 ### Confusion Matrix
 
@@ -163,6 +161,36 @@ d1                   | d1                   | d3                   | d4         
 <br/>
 
 ### Cross-entropy Loss
+
+Training 
+
+```
+Epoch 1/10
+3376/3376 [==============================] - 12s 4ms/step - loss: 0.0724 - accuracy: 0.9925
+Epoch 2/10
+3376/3376 [==============================] - 13s 4ms/step - loss: 0.1053 - accuracy: 0.9862
+Epoch 3/10
+3376/3376 [==============================] - 12s 4ms/step - loss: 0.0566 - accuracy: 0.9900
+Epoch 4/10
+3376/3376 [==============================] - 13s 4ms/step - loss: 0.0487 - accuracy: 0.9922
+Epoch 5/10
+3376/3376 [==============================] - 12s 4ms/step - loss: 0.0166 - accuracy: 0.9964
+Epoch 6/10
+3376/3376 [==============================] - 12s 4ms/step - loss: 0.0050 - accuracy: 0.9983
+Epoch 7/10
+3376/3376 [==============================] - 12s 4ms/step - loss: 0.0012 - accuracy: 0.9997
+Epoch 8/10
+3376/3376 [==============================] - 12s 4ms/step - loss: 5.6251e-04 - accuracy: 0.9997
+Epoch 9/10
+3376/3376 [==============================] - 12s 4ms/step - loss: 5.4370e-04 - accuracy: 0.9998
+Epoch 10/10
+3376/3376 [==============================] - 13s 4ms/step - loss: 8.1000e-04 - accuracy: 0.9997
+```
+
+Test
+```
+11509/11509 [==============================] - 28s 2ms/step - loss: 0.2628 - accuracy: 0.9634
+```
 
 
 
