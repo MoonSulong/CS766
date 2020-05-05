@@ -99,6 +99,10 @@ The image below roughly depicts the random forest algorithm.
 
 
 ### Neural Network
+[A neural network](https://en.wikipedia.org/wiki/Neural_network) is a network or circuit of neurons, connecting by weighted edges. Generally, a neural network has hidden layers, and activation functions on those hidden nodes to generate outputs. To train the weights of edges, neural works should define forward functions, loss functions and calculate backward functions to update the weights. 
+
+A simple neural network is shown as below. A dense layer means fully connections. Besides, the method of dropout is also used here to reduce overfitting by randomly ignoring some nodes during training process. 
+
 
 <center>
 <img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/NN.png" width = "500" height = "410" />  
@@ -107,6 +111,10 @@ The image below roughly depicts the random forest algorithm.
 
 
 ### Convolution Neural Network
+[A Convolutional Neural Network]( https://en.wikipedia.org/wiki/Convolutional_neural_network) is a Deep Learning algorithm. CNN’s networks use convolution in place of general matrix multiplication in at least one of their layers. One advantages of CNN is that, instead of fully connected, only sparse interaction is used here. This significantly reduce the complexity of calculations while maintain equivariant representations. Besides, CNN requires lower pre-process and has the ability to learn the filters/characters itself.  In a word, CNN is suitable to capture the Spatial and Temporal dependencies in an image, which means that CNN could be trained to understand the sophistication of the image well.
+
+In this project, two layers of CNN and one dense layer are used.
+
 
 <center>
 <img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/CNN.png" width = "1000" height = "450" />
