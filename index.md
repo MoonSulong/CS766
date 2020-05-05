@@ -146,20 +146,29 @@ For 3 classes classification, the overall accuracy of random forest still perfor
 
 ### Confusion Matrix
 
-actual\predict       | Non-water            | Water                | total           
+Actual\Predict       | Non-water            | Water                | Total           
 :------------------: | :------------------: | :------------------: | :------------------:
 Non-water            | 80                   | 10                   | 90             
 Water                | 16                   | 94                   | 110  
-total                | 96                   | 104                  | 200
+Total                | 96                   | 104                  | 200
+Overall accuracy = (80 + 94) / 200 = 87%
 <br/>
 
-head one             | head two             | head three           | head four           | head five
-:------------------: | :------------------: | :------------------: | :------------------:|:------------------:
-d1                   | d1                   | d3                   | d4                  | d5        
-d1                   | d1                   | d3                   | d4                  | d5
-d1                   | d1                   | d3                   | d4                  | d5
-d1                   | d1                   | d3                   | d4                  | d5
+Actual\Predict       | Non-water            | Water                | Total           
+:------------------: | :------------------: | :------------------: | :------------------:
+Non-water            | 93                   | 2                    | 95             
+Water                | 4                    | 101                  | 105  
+Total                | 97                   | 103                  | 200
+Overall accuracy = (93 + 101) / 200 = 97%
+<br/>
 
+Actual\Predict       | Bare                 | Vegetation           | Water               | Total
+:------------------: | :------------------: | :------------------: | :------------------:|:------------------:
+Bare                 | 41                   | 3                    | 0                   | 44        
+Vegetation           | 2                    | 50                   | 2                   | 54
+Water                | 0                    | 1                    | 101                 | 102
+Total                | 43                   | 54                   | 103                 | 200
+Overall accuracy = (41 + 51 + 101) / 200 = 96%
 <br/>
 
 ### Cross-entropy Loss
