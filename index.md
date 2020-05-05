@@ -84,6 +84,12 @@ $$
 
 
 ### Random Forest
+[Random forests](https://en.wikipedia.org/wiki/Random_forest) are an ensemble learning method, which concludes a multitude of decision trees. Random forests give outputs by the mode of classes or mean predictions of individual trees. They improve the performance of a single tree by reducing the problem of overfitting using bagging and feature randomness. 
+
+Random forests mainly have the following advantages: 
+1. Random forests could be efficient since it could be trained parallelly. 
+2. Random forests have high tolerance for missing features
+3. Random forests generate outputs with comparing high accuracy.
 
 The image below roughly depicts the random forest algorithm.
 <center>
