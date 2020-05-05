@@ -237,4 +237,4 @@ MathJax.Hub.Config({
 3. Phiri, D. & Morgenroth, J.(2017) Developments in Landsat Land Cover Classification Methods: A Review
 4. Vala, H. J., Baxi, A. (2013). A review on Otsu image segmentation algorithm.
 5. Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., Moore, R. (2017). Google Earth Engine:Planetary-scale geospatial analysis for everyone
-
+6. https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
