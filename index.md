@@ -114,16 +114,20 @@ The image below roughly depicts the random forest algorithm.
 <br/> 
 
 
-## Results
-### Type 1: 2 Classes
-
+## Classification Results
+### Two Classes with Segmentation and Random Forest
+We classified the imagery into 2 categories, water and non-water. With segmentation using Otsu algorithm, the histogram was computed and a threshold at value of 2016.13 was selected. 
 
 <center>
-<img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/2classes.png" />  
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/hist.png" />  
+</center>
+
+<center>
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/2classes.png" />  
 </center>
 <br/> 
 
-### Type2: 3 Classes
+### Three Classes with Rnadom Forest, Simple NN and CNN
 
 <center>
 <img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/3classes.png" />  
