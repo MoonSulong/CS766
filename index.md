@@ -117,21 +117,24 @@ The image below roughly depicts the random forest algorithm.
 </center>
 <br/> 
 
-head one             | head two             | head three           | head four           
-:------------------: | :------------------: | :------------------: | :------------------:
-d1                   | d1                   | d3                   | d4             
-d1                   | d1                   | d3                   | d4  
-d1                   | d1                   | d3                   | d4 
-
-<br/>
-
-
-
 ### Type2: 3 Classes
 
 <center>
 <img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/3classes.png" />  
 </center>
+<br/>
+
+<style>
+table {
+margin: auto;
+}
+</style>
+
+head one             | head two             | head three           | head four           
+:------------------: | :------------------: | :------------------: | :------------------:
+d1                   | d1                   | d3                   | d4             
+d1                   | d1                   | d3                   | d4  
+d1                   | d1                   | d3                   | d4 
 <br/>
 
 head one             | head two             | head three           | head four           | head five
@@ -143,11 +146,6 @@ d1                   | d1                   | d3                   | d4         
 
 <br/>
 
-<style>
-table {
-margin: auto;
-}
-</style>
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
