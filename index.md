@@ -135,6 +135,15 @@ The figure below shows the results with segmentation on the left, with a simple 
 </center>
 <br/>
 
+## Accuracy assessment
+We used confusion matrix to evaluate the accuracy for segmentation and random forest, and used cross-entropy loss to evaluate the NN model. For counfusion matrix, we randomly selected 200 test points, and generated tables below. For cross-entropy loss, we set drop out in case of overfit, divided training into 10 epochs and then check the accuracy on both the training and test sets.  
+
+For 2 classes classification, the overall accuracy of segmentation can only reach 87% while the overall accuarcy of RF outperforms with 97%.
+
+For 3 classes classification, the overall accuracy of random forest still performs well with 96%. The NN shows close but lower total accuracy with 92% and 95% respectively. In addition, there is a gap between training accuracy and test accuracy for NN models. Although it shows very high accuracy in training set for both NN models, 99% and 100%, they drop on the test sets.      
+
+### Confusion Matrix
+
 head one             | head two             | head three           | head four           
 :------------------: | :------------------: | :------------------: | :------------------:
 d1                   | d1                   | d3                   | d4             
@@ -150,6 +159,10 @@ d1                   | d1                   | d3                   | d4         
 d1                   | d1                   | d3                   | d4                  | d5
 
 <br/>
+
+### Cross-entropy Loss
+
+
 
 
 <script type="text/javascript" async
