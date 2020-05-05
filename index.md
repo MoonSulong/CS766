@@ -229,8 +229,11 @@ We demonstrates an implementation of classification of Landsat 8 imagery on Goog
 3. Phiri, D. & Morgenroth, J.(2017) Developments in Landsat Land Cover Classification Methods: A Review
 4. Vala, H. J., Baxi, A. (2013). A review on Otsu image segmentation algorithm.
 5. Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., Moore, R. (2017). Google Earth Engine:Planetary-scale geospatial analysis for everyone
-6. https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
+6. CNN: https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
 
+<style>
+table {margin: auto;}
+</style>
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
