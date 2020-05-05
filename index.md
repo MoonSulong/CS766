@@ -225,10 +225,10 @@ MathJax.Hub.Config({
 </script>
 
 
-## Discussion
+## Conclusion and Future work
 
+We demonstrates an implementation of classification of Landsat 8 imagery on Google Earth Engin and TensorFlow with different approaches, segmentation, random forest, and nerual network. The GEE platform is a powerful cloud computing platform to implement exhaustive classification algorithm. The comparisions of accuracy show that random forest performs the best (97%) while the segmentation has the lowest overall accuracy (87%). Both the simple NN and CNN show close accuracy to the random forest, but they are not the optimal choices in our project. The cause of gap between accuracy of trainning and test may be due to many possible factors, such as hyperparameters and quality of training and test data. We are not able to research further because of limited time. In the future, it is worth to rectify parameters and improve the NN models for more tests.        
 
-## Future Work
 
 ## Reference
 
