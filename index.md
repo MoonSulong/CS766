@@ -129,7 +129,9 @@ The figure below shows the results with segmentation on the left and with random
 <br/> 
 
 ### Three Classes with Rnadom Forest, Simple NN and CNN
-The figure below shows the results with segmentation on the left, with a simple NN (1 hidden fully connected layer) in the middle, and with a CNN on the right. The difference is not easy to catch, so we circled some of them in shapes. The red circles show the difference between random forest and simple NN while the red rectangles show the difference between simple NN and CNN.  
+We classified the imagery into 3 categories: water(blue), vegetation(gree), and bare(yellow). 10 trees were set for the random forest algorithm. 1 hidden fully connected layer was set for the simple NN model while 3 hidden layer (2 CNN and 1 Dense) were set for the CNN model. 
+
+The figure below shows the results with segmentation on the left, with a simple NN in the middle, and with a CNN on the right. The difference is not easy to catch, so we circled some of them in shapes. The red circles show the difference between random forest and simple NN while the red rectangles show the difference between simple NN and CNN.  
 <center>
 <img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/3classes.png" />  
 </center>
