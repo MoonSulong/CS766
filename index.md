@@ -160,7 +160,7 @@ Water                | 16                   | 94                   | 110
 Total                | 96                   | 104                  | 200
 
 
-<center> Overall accuracy = (80 + 94) / 200 = 87% </center>
+Overall accuracy = (80 + 94) / 200 = 87%
 <br/>
 
 Actual\Predict       | Non-water            | Water                | Total           
@@ -170,7 +170,7 @@ Water                | 4                    | 101                  | 105
 Total                | 97                   | 103                  | 200
 
 
-<center> Overall accuracy = (93 + 101) / 200 = 97% </center>
+Overall accuracy = (93 + 101) / 200 = 97% 
 <br/>
 
 Actual\Predict       | Bare                 | Vegetation           | Water               | Total
@@ -181,7 +181,7 @@ Water                | 0                    | 1                    | 101        
 Total                | 43                   | 54                   | 103                 | 200
 
 
-<center> Overall accuracy = (41 + 51 + 101) / 200 = 96% </center>
+Overall accuracy = (41 + 51 + 101) / 200 = 96%
 <br/>
 
 ### Cross-entropy Loss
@@ -232,11 +232,6 @@ We demonstrates an implementation of classification of Landsat 8 imagery on Goog
 5. Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., Moore, R. (2017). Google Earth Engine:Planetary-scale geospatial analysis for everyone
 6. CNN: https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
 
-<style>
-table {
-margin: auto;
-}
-</style>
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
