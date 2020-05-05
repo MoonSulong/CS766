@@ -217,3 +217,16 @@ MathJax.Hub.Config({
 </script>
 
 
+## Discussion
+
+
+## Future Work
+
+## Reference
+
+1. Mahmon, N.A. & Ya'acob, N. (2014) A review on classification of satellite image using Artificial Neural Network (ANN).
+2. Joshi, N. etc. (2015) A Review of the Application of Optical and Radar Remote Sensing Data Fusion to Land Use Mapping and Monitoring
+3. Phiri, D. & Morgenroth, J.(2017) Developments in Landsat Land Cover Classification Methods: A Review
+4. Vala, H. J., Baxi, A. (2013). A review on Otsu image segmentation algorithm.
+5. Gorelick, N., Hancher, M., Dixon, M., Ilyushchenko, S., Thau, D., Moore, R. (2017). Google Earth Engine:Planetary-scale geospatial analysis for everyone
+
