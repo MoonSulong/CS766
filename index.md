@@ -232,7 +232,9 @@ We demonstrates an implementation of classification of Landsat 8 imagery on Goog
 6. CNN: https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
 
 <style>
-table {margin: auto;}
+table {
+margin: auto;
+}
 </style>
 
 <script type="text/javascript" async
