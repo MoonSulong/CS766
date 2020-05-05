@@ -99,7 +99,9 @@ The image below roughly depicts the random forest algorithm.
 
 
 ### Neural Network
+[A neural network](https://en.wikipedia.org/wiki/Neural_network) is a network or circuit of neurons, connecting by weighted edges. Generally, a neural network has hidden layers, and activation functions on those hidden nodes to generate outputs. To train the weights of edges, neural works should define forward functions, loss functions and calculate backward functions to update the weights. 
 
+A simple neural network is shown as below. A dense layer means fully connections. Besides, the method of dropout is also used here to reduce overfitting by randomly ignore some nodes during training process. 
 <center>
 <img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/NN.png" width = "500" height = "410" />  
 </center>
