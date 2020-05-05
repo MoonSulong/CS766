@@ -146,11 +146,11 @@ For 3 classes classification, the overall accuracy of random forest still perfor
 
 ### Confusion Matrix
 
-head one             | head two             | head three           | head four           
+                     | Non-water            | Water                | total           
 :------------------: | :------------------: | :------------------: | :------------------:
-d1                   | d1                   | d3                   | d4             
-d1                   | d1                   | d3                   | d4  
-d1                   | d1                   | d3                   | d4 
+Non-water            | 80                   | 10                   | 90             
+Water                | 16                   | 94                   | 110  
+total                | 96                   | 104                  | 200
 <br/>
 
 head one             | head two             | head three           | head four           | head five
