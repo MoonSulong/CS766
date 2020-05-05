@@ -97,7 +97,6 @@ The image below roughly depicts the random forest algorithm.
 </center>
 <br/> 
 
-
 ### Neural Network
 [A neural network](https://en.wikipedia.org/wiki/Neural_network) is a network or circuit of neurons, connecting by weighted edges. Generally, a neural network has hidden layers, and activation functions on those hidden nodes to generate outputs. To train the weights of edges, neural works should define forward functions, loss functions and calculate backward functions to update the weights. 
 
@@ -216,6 +215,8 @@ Test
 ```
 11509/11509 [==============================] - 28s 2ms/step - loss: 0.2928 - accuracy: 0.9534
 ```
+
+<br/>
 
 ## Conclusion and Future work
 
