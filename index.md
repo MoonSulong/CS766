@@ -93,7 +93,7 @@ Random forests mainly have the following advantages:
 
 The image below roughly depicts the random forest algorithm.
 <center>
-<img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/RF.png" width = "700" height = "540" />  
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/RF.png" width = "700" height = "540" />  
 </center>
 <br/> 
 
@@ -140,7 +140,7 @@ We classified the imagery into 3 categories: water(blue), vegetation(gree), and 
 
 The figure below shows the results with segmentation on the left, with a simple NN in the middle, and with a CNN on the right. The difference is not easy to catch, so we circled some of them in shapes. The red circles show the difference between random forest and simple NN while the red rectangles show the difference between simple NN and CNN.  
 <center>
-<img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/3classes.png" />  
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/3classes.png" />  
 </center>
 <br/>
 
