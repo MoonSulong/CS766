@@ -104,7 +104,7 @@ A simple neural network is shown as below. A dense layer means fully connections
 
 
 <center>
-<img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/NN.png" width = "500" height = "410" />  
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/NN.png" width = "500" height = "410" />  
 </center>
 <br/> 
 
