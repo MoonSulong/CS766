@@ -116,7 +116,7 @@ In this project, two layers of CNN and one dense layer are used.
 
 
 <center>
-<img src="https://raw.githubusercontent.com/LydiaLyu/CS766/master/CNN.png" width = "1000" height = "450" />
+<img src="https://raw.githubusercontent.com/MoonSulong/CS766/master/CNN.png" width = "1000" height = "450" />
 </center>
 <br/> 
 
